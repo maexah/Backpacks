@@ -98,9 +98,9 @@ dependencies {
 		transitive false
 	}
 
-	modImplementation("maven.modrinth:retrocommands:${project.retrocommands_version}-fabric,b1.7.3") {
-		transitive false
-	}
+        modImplementation("maven.modrinth:wIWtkL0s:${project.retrocommands_version}") {
+                transitive false
+        }
 
 	modImplementation("net.danygames2014:spawneggs:${project.spawneggs_version}") {
 		transitive false
